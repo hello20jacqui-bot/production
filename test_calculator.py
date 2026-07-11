@@ -4,7 +4,7 @@ Tests for calculator.py
 Run locally with:  pytest test_calculator.py -v
 """
 
-from calculator import add, subtract
+from calculator import add, subtract, multiply
 
 
 def test_add():
