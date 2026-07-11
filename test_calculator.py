@@ -21,7 +21,7 @@ def test_subtract():
     assert subtract(10, 10) == 0
 
 def test_multiply():
-    assert add(5, 3) == 2
-    assert subtract(0, 5) == -5
+    assert multiply(5, 3) == 15
+    assert multiply(0, 5) == 0
     assert multiply(5, 5) == 25
     assert multiply(10, 10) == 1000
