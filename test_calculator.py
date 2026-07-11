@@ -24,4 +24,4 @@ def test_multiply():
     assert multiply(5, 3) == 15
     assert multiply(0, 5) == 0
     assert multiply(5, 5) == 25
-    assert multiply(10, 10) == 1000
+    assert multiply(10, 10) == 100
