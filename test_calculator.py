@@ -19,3 +19,9 @@ def test_subtract():
     assert subtract(0, 5) == -5
     assert subtract(-1, -1) == 0
     assert subtract(10, 10) == 0
+
+def test_multiply():
+    assert add(5, 3) == 2
+    assert subtract(0, 5) == -5
+    assert multiply(5, 5) == 25
+    assert multiply(10, 10) == 1000
